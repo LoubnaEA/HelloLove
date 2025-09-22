@@ -1,7 +1,7 @@
 
 def draw_ascii_heart():
     heart = [
-        "  ***     ***  ",          # Définir la forme du ♥ en utilisant des caractères ASCII
+        "  ***     ***  ",          
         "******* *******",          # Define the ♥ shape using ASCII characters
         " ************* ",  
         "  ***********  ",  
@@ -9,7 +9,8 @@ def draw_ascii_heart():
         "       *      "   
     ]
     
-    for line in heart:              # Imprimer chaque ligne pour afficher le ♥
+    for line in heart:              
         print(line)                 # Print each line to display the ♥
 
 draw_ascii_heart()
+
